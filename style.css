@@ -5,5 +5,29 @@ body {
 .page {
   width: 1000px;
   margin: 65px auto 0;
-  border: 1px solid red;
+}
+
+header {
+  /* flex uma caixa ao lado da outra */
+  display: flex;
+
+  /* espaço entre caixas */
+  justify-content: space-between;
+
+  /* alinha os itens dentro da caixa a um eixo determinado */
+  align-items: center;
+
+  margin-bottom: 55px;
+}
+
+ul {
+  display: flex;
+
+  list-style: none;
+
+  gap: 48px;
+
+  margin: 0;
+
+  padding: 0;
 }
